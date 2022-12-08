@@ -1,0 +1,13 @@
+<perch:before><ul class="c-navbar c-navbar--centered"></perch:before>
+<li 
+    class="<perch:if exists="current_page">selected </perch:if>
+            <perch:if exists="ancestor_page">ancestor </perch:if>
+            c-navbar__element"
+>
+        <a href="<perch:pages id="pagePath" />" class="c-navbar__link c-navbar__link--hover-invert c-navbar__link--fixed-size">
+            <perch:pages id="pageNavText" />
+        </a>
+</li>
+<perch:after>
+</ul>
+</perch:after>
