@@ -220,7 +220,7 @@ input[type=submit]{
 	background-image: linear-gradient(#045f5f, #014040);
 	color:#fff;
 	text-decoration: none;
-	font-family: 'nowayregular', Georgia, serif;
+	font-family: Nunito, sans-serif;
 	cursor:pointer;
 }
 
