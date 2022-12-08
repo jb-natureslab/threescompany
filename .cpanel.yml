@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/threescompany/threescompany.info/
+    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/threescompany/public_html/
+    - /bin/cp -R * $DEPLOYPATH
