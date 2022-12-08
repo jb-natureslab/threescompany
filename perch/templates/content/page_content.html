@@ -138,7 +138,13 @@
 		        <perch:repeater id="items" label="Items">
 		        <li class="background_white border_grey shadow">
 		            <div>
+			            <perch:if exists="url">
+			            <a href="<perch:content id="url" label="URL" type="text" />">
+			            </perch:if>
 			            <img src="<perch:content id="image" label="Image" type="image" width="600" height="600" crop="true" />" alt="" />
+			            <perch:if exists="url">
+			            </a>
+			            </perch:if>
 		            </div>
 		            <perch:if exists="text">
 		            <div class="flow">
