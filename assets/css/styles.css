@@ -582,7 +582,15 @@ ul.timeline li:nth-child(odd) img{
 .background_dark h2,
 .background_dark h3,
 .background_dark p,
-.background_dark label{
+.background_dark label,
+.background_dark i,
+.background_gradient h1,
+.background_gradient h2,
+.background_gradient h3,
+.background_gradient p,
+.background_gradient label,
+.background_gradient i,
+.background_gradient a{
 	color:#fff;
 }
 
