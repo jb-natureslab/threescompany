@@ -196,7 +196,7 @@ label{
 
 input{
 	font-size:var(--size-500);
-	font-family: 'nowayregular', Georgia, serif;
+	font-family: Nunito, sans-serif;
 }
 
 input[type=text],
